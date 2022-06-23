@@ -23,7 +23,7 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+\documentclass[9pt,a4paper,ragged2e,withhyper]{altacv}
 
 %% AltaCV uses the fontawesome5 and academicons fonts
 %% and packages.
@@ -68,10 +68,10 @@
 \colorlet{body}{LightGrey}
 
 % Change some fonts, if necessary
-\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\namefont}{\Large\rmfamily\bfseries}
 \renewcommand{\personalinfofont}{\footnotesize}
-\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
-\renewcommand{\cvsubsectionfont}{\large\bfseries}
+\renewcommand{\cvsectionfont}{\large\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\med\bfseries}
 
 
 % Change the bullets for itemize and rating marker
@@ -80,11 +80,11 @@
 \renewcommand{\ratingmarker}{\faCircle}
 
 %% sample.bib contains your publications
-\addbibresource{sample.bib}
+%\addbibresource{sample.bib}
 
 \begin{document}
 \name{Liam Boyd}
-\tagline{Maths and Computer Science (MSc) student at Durham University}
+\tagline{Mathematics and Computer Science (MSci) Student at Durham University}
 %% You can add multiple photos on the left or right
 \photoR{2.8cm}{Globe_High}
 % \photoL{2.5cm}{Yacht_High,Suitcase_High}
@@ -119,45 +119,59 @@
 \begin{paracol}{2}
 \cvsection{Education}
 
-\cvevent{Durham University}{Maths and Computer Science (MSc)}{Oct 2018 -- June 2022}{Durham City, Durham}
-I am currently starting my third year, having completed my second year with a 2:1 average. Alongside studying, I am heavily involved in my college's theatre company and lacrosse team.
+\cvevent{Durham University}{MSci Mathematics and Computer Science}{Oct 2018 -- June 2022}{Durham City, Durham}
+Achieved a 2:1 with a focus on machine learning modules. 
 
-\divider
+Notable modules: Blockchain \& Cryptocurrencies, Cryptography \& Codes, Cyber Security, Decision Theory, Deep Learning \& Reinforcement Learning, Mathematical Finance, Natural Language Processing, Operations Research, Recommender Systems, Stochastic Processes, Virtual and Augmented Reality. 
+
+Masters Thesis: Deep Learning Using Recurrent VAE-GAN Structures for Automatic Music Generation and Genre Transfer
+
+\medskip
 
 \cvevent{King's College London Mathematics School}{A levels}{Sept 2016 -- June 2018}{Waterloo, London}
-\begin{center}
-\begin{tabular}{ c c c }
-\rowcolor{RowDark}
-Grade & Subject & Type \\
-\rowcolor{RowLight}
-A* & Maths & A2 \\
-\rowcolor{RowLight}
-A* & Further Maths & A2 \\
-\rowcolor{RowLight}
-A* & Physics & A2 \\
-\rowcolor{RowLight}
-A & Computer Science & AS
-\end{tabular}
-\end{center}
-\smallskip
-During my time at King's I also participated in many extracurricular activities such as hackathons, programming and machine learning projects and I attended weekly astronomy and cryptic crossword clubs.
+%\begin{center}
+%\begin{tabular}{ c c c }
+%\rowcolor{RowDark}
+%Grade & Subject & Level \\
+%\rowcolor{RowLight}
+%A* & Maths & A2 \\
+%\rowcolor{RowLight}
+%A* & Further Maths & A2 \\
+%\rowcolor{RowLight}
+%A* & Physics & A2 \\
+%\rowcolor{RowLight}
+%A & Computer Science & AS
+%\end{tabular}
+%\end{center}
+%\smallskip
+A Levels: Maths A*, Further Maths A*, Physics A*
+
+AS Levels: Computer Science A
+
+Accepted into a highly selective and top performing sixth-form college, attending weekly problems classes with PhD students and taking on extra mathematics modules in addition to completing A Levels. Also achieved Gold in UKMT Senior Mathematics Challenge and won the Goldman Sachs prize at 2017 HackKings Hackathon.
+
+\medskip
+
+\cvevent{St. Martins Secondary School}{GCSEs}{Sept 2011 -- June 2016}{Brentwood, Essex}
+
+5 A*s in Maths, Biology, Chemistry, Geography and PRE, 6 As in English Language, English Literature, Computing, Physics, Statistics and Further Maths, 1 B in German.
 
 \medskip
 
 \cvsection{Experience}
 
-\cvevent{Print Finisher}{The Styleworks}{June 2016 - July 2017}{Brentwood, Essex}
-I worked in a post-production role with responsibilities such as collating and packing brochures and completing paperwork for courier delivery to multiple clients.
+\cvevent{Academic Tutor}{Durham University}{October 2021 -- June 2022}{Durham City, Durham}
+Taught four groups of first year computer scientists on the Algorithms \& Data Structures module, leading weekly 2-hour problems classes and answering course related questions. Responsibilities also included marking student work and providing assistance with Python programming.
 
-\divider
+\medskip
+
+\cvevent{Bar Team Member}{The Merchant}{July 2019 -- October 2021}{Brentwood, Essex}
+Worked on the bar team handling customer orders and payments, preparing drinks and snacks and ensuring the bar and restaurant area remained a clean, safe and welcoming environment.
+
+\medskip
 
 \cvevent{Student Ambassador}{King's College London Mathematics School}{July 2018}{Waterloo, London}
-I supported teachers in post-GCSE level maths summer classes, helping to ensure student safety and wellbeing while giving prospective students an insight into mathematics at A-level and beyond.
-
-\divider
-
-\cvevent{Bar Team Member}{The Merchant}{July 2019 - Present}{Brentwood, Essex}
-I work behind the bar handling customer orders and payments, preparing drinks and snacks and ensuring the bar and restaurant area remain a clean, safe and welcoming environment.
+Supported teachers in post-GCSE maths summer classes, teaching in small groups and ensuring student safety and wellbeing while giving prospective students an insight into mathematics at A-level and beyond.
 
 
 
@@ -167,58 +181,48 @@ I work behind the bar handling customer orders and payments, preparing drinks an
 
 \cvsection{Languages}
 
-\cvskill{Python}{4}
-I have 5 years experience in Python, working with numerous libraries including Pytorch, Scikit-learn, Pandas, Numpy, Matplotlib, OpenCV, NetworkX and more.
+\cvskill{Python}{5}
+8 years programming experience using python for the majority of projects, including working with numerous libraries such as Pytorch, TensorFlow, Hugging Face Transformers, Scikit-learn, Pandas, Numpy, Matplotlib, OpenCV, NetworkX and more.
 
 \medskip
 
 \cvskill{C}{3}
-I have been programming in C for 2 years and have used it in a few projects at Uni such as recreating Conway's Game of Life with many varying sets of rules.
+3 years programming experience having used it in projects at university, including developing a text parser for compiler design and recreating Conway's Game of Life.
 
 \medskip
 
-\cvskill{Java}{2}
-I have used Java on and off for the past year, and while I have used it as a part of some projects at uni, I am not as confident programming in it as with other languages. I am working on improving my knowledge of Java for the future.
+\cvskill{Java}{3}
+3 years programming experience using it as part of university projects including to produce and manage databases for website and application design in conjunction with SQL, alongside using it for game development in Unity and more generally for algorithm design.
 
 \medskip
 
-\cvskill{HTML \& CSS}{3}
-I have used HTML \& CSS for 4 years and have used it to create websites for myself and others in the past.
+\cvskill{JavaScript, HTML \& CSS}{3}
+4 years programming experience using HTML \& CSS to create websites in the past, including development with React.js and Typescript. Have also used JavaScript as part of numerous projects throughout university.
 
 \medskip
 
 \cvsection{Software \& Tools}
 
 \cvtag{Microsoft Office}
+\cvtag{Photoshop}
+\cvtag{LaTeX}\\
 \cvtag{Git \& Github}
-\cvtag{LaTeX}
+\cvtag{SSH}
+\cvtag{SQL}
+\cvtag{Unity}\\
 \cvtag{Windows}
 \cvtag{MacOS}
-\cvtag{Linux}
+\cvtag{Ubuntu Linux}
 
 \cvsection{Skills \& Interests}
 
-\cvtag{Drama \& Acting}
-\cvtag{Guitar Playing}\\
-\cvtag{Problem Solving}
-\cvtag{Skateboarding}\\
-\cvtag{Community Outreach}
-\cvtag{Technology}\\
-\cvtag{Video Games}
-\cvtag{Reading}
-
-
-
-\cvsection{Referees}
-
-% \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-{Address Line 1\\Address line 2}
-
-\divider
-
-\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-{Address Line 1\\Address line 2}
+\begin{itemize}
+  \item Attended numerous hackathons: YRS Festival of Code 2013-15, KCL HackKings 2016-17 and DurHack 2018-19, improving teamworking and programming skills.
+  \item Interest in drama, having performed in student productions including Mamma Mia, Grease and The Tempest, improving confidence and self-esteem.
+  \item Competed in college-level cricket, hockey \& lacrosse teams during university, building teamworking skills.
+  \item Interest in community outreach, having volunteered to lead after-school sports classes at local schools during University.
+  \item Interest in guitar playing, particularly 1980s punk and 1990s alternative rock.
+\end{itemize}
 
 
 \end{paracol}
